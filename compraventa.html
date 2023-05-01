@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Compraventa de Coches</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+  body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+  }
+  header {
+   background-color: #0b6438;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+  }
+  nav {
+  background-color: #333;
+  width: 100%;
+ }
+
+ nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ nav ul li {
+  position: relative;
+ }
+
+ nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+ }
+
+ nav ul li:hover > ul {
+  display: block;
+ }
+
+ nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  width: 200px;
+ }
+
+ nav ul ul li {
+  position: relative;
+ }
+
+ nav ul ul li a {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+ }
+
+ nav ul ul ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+ }
+
+ 
+  main {
+   padding: 20px;
+  }
+  h1 {
+   font-size: 36px;
+   margin-bottom: 20px;
+  }
+  table {
+   border-collapse: collapse;
+   width: 100%;
+  }
+  th, td {
+   padding: 10px;
+   text-align: center;
+   border: 1px solid #ccc;
+  }
+  th {
+   background-color: #eee;
+  }
+  tr:nth-child(even) {
+   background-color: #f2f2f2;
+  }
+  aside {
+        background-color: #f5f5f5;
+        padding: 10px;
+        width: 250px;
+        float: right;
+      }
+      main {
+        margin-left: 20px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        margin-top: 0;
+      }
+ </style>
+
+</head>
+<body>
+ <header>
+    <img src="Imagenes/logoCochemanuia.png" alt="logo de la web">
+    
+  <h2> Tu web de compraventa de coches</h2>
+ </header>
+ <nav>
+  <ul>
+    <li><a href="compraventa.html">Inicio</a></li>
+    <li>
+      <a href="compraventa.html">Cochemania</a>
+      <ul>
+        <li><a href="areas-actuacion.html">Areas de actuacion</a></li>
+        <li><a href="quienes-somos.html">Quienes somos</a></li>
+      </ul>
+    </li>
+    <li><a href="formulario.html">Contacto</a></li>
+  </ul>
+ </nav>
+
+ <section> 
+  <div class="Noticias">
+    <article> 
+    <h2> Noticias</h2>
+    <a href="https://www.motor.es/noticias/mercedes-combustibles-sinteticos-coches-electricos-202394536.html">
+     <p> Mercedes deja clara su postura sobre los combustibles sintéticos: «Los coches eléctricos son superiores» </p>  </a> 
+
+    <a href="https://www.coches.net/noticias/nuevo-ford-f150-raptor-r-2023">
+     <p> Por primera vez la Ford F-150 Raptor está disponible con un motor V8 sobrealimentado por compresor volumétrico que declara 700 CV</p> </a>
+
+    <a href="https://www.caranddriver.com/es/coches/planeta-motor/a43669717/bmw-z3-v8-mercedes-amg/">
+      <p> Un BMW Z3 con motor AMG V8 ¿El Sacrilegio definitivo? </p> </a>
+ 
+    <a href="https://www.noticiasdelmotor.com/automoviles/hyundai-presenta-el-nuevo-kona-en-el-salon-de-barcelona/">
+        <p>  Hyundai presenta el nuevo KONA en el Salón de Barcelona - Noticias del motor </p> </a>
+    </article> 
+    <aside>
+        <h4>Ponte al dia con los ultimos articulos relacionadas con el mundo del motor</h4>
+        <ul>
+          <li><a href="https://www.noticiasdelmotor.com/">Noticias del Motor</a></li>
+          <li><a href="https://www.caranddriver.com/">Car and Driver</a></li>
+          <li><a href="https://www.motor.es/">Motor.es</a></li>
+        </ul>
+      </div>
+    </section>
+      
+ </section>
+ <section> 
+  <h2>Últimos coches añadidos</h2>
+  <table>
+   <tr>
+    <th>Marca</th>
+    <th>Modelo</th>
+    <th>Año</th>
+    <th>Precio</th>
+   </tr>
+   <tr>
+    <article>
+    <td>Renault</td>
+    <td>Clio</td>
+    <td>2019</td>
+    <td>9000 €</td>
+   </article>
+   </tr>
+   <tr>
+    <article>
+    <td>Audi</td>
+    <td>A3</td>
+    <td>2017</td>
+    <td>15000 €</td>
+    </article>
+   </tr>
+   <tr>
+    <article>
+    <td>Opel</td>
+    <td>Corsa</td>
+    <td>2015</td>
+    <td>6000 €</td>
+    </article>
+   </tr>
+   <tr>
+    <article>
+    <td>Seat</td>
+    <td>Panda</td>
+    <td>2004</td>
+    <td>1400 €</td>
+    </article>
+   </tr>
+   <tr>
+    <article>
+    <td>Ford</td>
+    <td>Mustang</td>
+    <td>2011</td>
+    <td>10200 €</td>
+    </article>
+   </tr>
+   <tr>
+    <article>
+    <td>Honda</td>
+    <td>S2000</td>
+    <td>2006</td>
+    <td>16000 €</td>
+    </article>
+   </tr>
+   <tr>
+    <article>
+    <td>Fiat</td>
+    <td>Punto</td>
+    <td>2001</td>
+    <td>980 €</td>
+    </article>
+   </tr>
+  </table>
+ </section>
+ <section>
+  
+
+  <aside>
+    <h2>Menú</h2>
+    <ul>
+      <li><a href="compraventa.html">Inicio</a></li>
+      <li><a href="areas-actuacion.html">Areas de actuacion</a></li>
+      <li><a href="quienes-somos.html">Quienes somos</a></li>
+      <li><a href="formulario.html">Contacto</a></li>
+    </ul>
+  </aside>
+  
+</body>
+<footer> <SMALL> 
+    <div class="footer-container">
+      <div class="footer-info">
+        <h4>Cochemania</h4>
+        <p>Dirección: Calle de la Paz, 15, 28012 Madrid, España</p>
+        <p>Teléfono: +34 91 123 45 67</p>
+      </div>
+      <div class="footer-links">
+        <h4>Enlaces útiles</h4>
+        <ul>
+          <li><a href="compraventa.html">Inicio</a></li>
+          <li><a href="areas-actuacion.html">Areas de actuacion</a></li>
+          <li><a href="quienes-somos.html">Quienes somos</a></li>
+          <li><a href="formulario.html">Contacto</a></li>
+          <li><a href="politica-privacidad.html">Política de privacidad</a></li>
+        </ul>
+      </div>
+    </div> </SMALL>
+  </footer>
+  
+</html>
